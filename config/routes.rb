@@ -1,6 +1,6 @@
 
 Rails.application.routes.draw do
-  get "ping" => 'application#ping'
+  get "ping" => 'table_tennis#ping'
 
   post 'user_token' => 'user_token#create'
 
